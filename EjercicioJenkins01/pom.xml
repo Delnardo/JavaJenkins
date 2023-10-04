@@ -11,4 +11,13 @@
         <maven.compiler.target>17</maven.compiler.target>
         <exec.mainClass>com.mycompany.ejerciciojenkins01.EjercicioJenkins01</exec.mainClass>
     </properties>
+    <dependencies>
+        <!-- Otras dependencias pueden estar aquí -->
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter-api</artifactId>
+            <version>5.10.0</version>
+            <type>jar</type>
+        </dependency>
+    </dependencies>
 </project>
