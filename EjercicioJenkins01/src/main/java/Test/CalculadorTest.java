@@ -21,7 +21,7 @@ public class CalculadorTest {
 
     @Test
     public void testSum() {
-        assertEquals(6.0, calculador.sum(2.0, 3.0));
+        assertEquals(5.0, calculador.sum(2.0, 3.0));
     }
 
     @Test
